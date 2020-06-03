@@ -101,7 +101,6 @@ const Index: FunctionComponent = () => {
         <TourModal selectedTourNode={ selectedTourNode } />
       }
       <InfoText />
-
       <TourBar tour={ tour } handleTourClick={ handleTourClick } selectedTourNode={ selectedTourNode } />
     </main>
   </BaseLayout>
